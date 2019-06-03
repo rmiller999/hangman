@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hangman</title>
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Hangman</h1>
+        <h3>Instructions: Try to figure out the unkown word by guessing a letter to survive.</h3> 
+        <h3>You have 11 tries until you die.</h3>
+    </header>
+    <main>
+        <p id='text'></p>
+        <p id="count"></p>
+        <input  id="userInput" type="text" name="input" placeholder="Enter Letter..." maxlength="1">
+        <button class="btn btn-primary">Enter</button>
+        <p id="wrong">Incorrect Letters: </p>
+        <h1 id="winner"></h1>
+        <img id="hangman" src="imgs/0.jpg" alt="">
+    </main>
+    <footer>
+        <h2>© Copyright 2019, Reid Miller's Hangman</h2>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

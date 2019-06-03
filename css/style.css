@@ -1,0 +1,38 @@
+body {
+    text-align: center;
+    background: #39CCCC;
+    font-family: 'Roboto Mono', monospace;
+}
+
+p {
+    margin: auto;
+    padding-top: 10px;
+    font-size: 2.5em;
+    font-family: 'Indie Flower', cursive;
+}
+
+h1 {
+    font-size: 3.5em;
+}
+
+input, button{
+    width: 200px;
+    font-size: 1.5em;
+}
+
+footer {
+    padding-top: 100px;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+h3 {
+    font-size: 1.25em;
+    /*color: ;*/
+}
+
+#wrong {
+    color: #DF013C;
+}
